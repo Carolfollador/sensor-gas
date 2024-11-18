@@ -16,7 +16,7 @@ Embora a placa Arduino UNO R3 não tenha conexão Wi-Fi, podemos utilizar a cone
 
 2 - Script para conexão com broker fornecido pela Adafruit.IO e criação de dashboard com dados coletados.
 
-# Execuçao 
+# Execução 
 Faça as ligações pela protoboard dos dispositivos.
 
 Conecte a uma máquina.
@@ -24,7 +24,7 @@ Conecte a uma máquina.
 Será necessário python e C++ e uma IDE.
 
 Execute o código de controle do arduino:
-
+(```
 #define sensorAnalogico A0
 #define ledverde 4
 #define ledvermelho 3
@@ -65,6 +65,7 @@ void loop() {
 
   delay(2000);
 }
+)
 Publicando dados via MQTT:
 Localmente, gerencie um broker de sua escolha e utiliza o script: local-broker.py
 
