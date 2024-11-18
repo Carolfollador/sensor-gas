@@ -3,20 +3,20 @@ Abstract. This paper presents the development of an IoT-based smart smoke detect
 
 Resumo. Este artigo apresenta o desenvolvimento de um detector de fumaça inteligente baseado em IoT, alinhado ao Objetivo de Desenvolvimento Sustentável 9 (Indústria, Inovação e Infraestrutura). O sistema utiliza sensores de fumaça conectados a um microcontrolador com capacidade de comunicação via protocolo MQTT, permitindo o monitoramento remoto e o envio de alertas em tempo real em caso de detecção de fumaça. Essa inovação melhora a infraestrutura de segurança, permitindo alertas antecipados em casos de risco de incêndio, contribuindo para o desenvolvimento urbano resiliente e sustentável.
 
-#Hardware 
+# Hardware 
 Placa Arduino UNO R3
 Sensor gás MQ-135
 Protoboard
 Sensores LED (verde e vermelho)
 dois Resistor de 220Ω
 
-#Protocolo MQTT
+# Protocolo MQTT
 Embora a placa Arduino UNO R3 não tenha conexão Wi-Fi, podemos utilizar a conexão via porta USB com um script Python para estabelecer uma conexão MQTT. Isso nos permite enviar dados coletados pelo Arduino e sensor para qualquer broker escolhido. Vamos utilzar 2 cenários:
 1 - Script para conexão com broker local Mosquitto
 
 2 - Script para conexão com broker fornecido pela Adafruit.IO e criação de dashboard com dados coletados.
 
-#Execuçao 
+# Execuçao 
 Faça as ligações pela protoboard dos dispositivos.
 
 Conecte a uma máquina.
