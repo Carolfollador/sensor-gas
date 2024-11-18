@@ -24,7 +24,7 @@ Conecte a uma máquina.
 Será necessário python e C++ e uma IDE.
 
 Execute o código de controle do arduino:
-(```
+(```)
 #define sensorAnalogico A0
 #define ledverde 4
 #define ledvermelho 3
@@ -65,7 +65,7 @@ void loop() {
 
   delay(2000);
 }
-)
+(```)
 Publicando dados via MQTT:
 Localmente, gerencie um broker de sua escolha e utiliza o script: local-broker.py
 
